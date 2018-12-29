@@ -1,5 +1,6 @@
 public class Start {
 
+    //metoda startowa
     static public void main(String[] args) {
 
         Produkt poszewka = new Produkt("poszewka", "materiał", 20L);
