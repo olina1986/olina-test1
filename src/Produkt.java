@@ -9,4 +9,8 @@ public class Produkt {
         this.opis = opis;
         this.cena = cena;
     }
+
+    public Long getCena() {
+        return cena;
+    }
 }

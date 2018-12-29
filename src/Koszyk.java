@@ -9,5 +9,14 @@ public class Koszyk {
         listaProduktow.add(produkt);
     }
 
+    public long pokazCena (){
+
+        long suma = 0;
+        for(Produkt produkt: listaProduktow){
+            suma += produkt.getCena();
+        }
+        return suma;
+    }
+
 
 }
