@@ -3,7 +3,7 @@ public class Start {
     //metoda startowa
     static public void main(String[] args) {
 
-        Produkt poszewka = new Produkt("poszewka", "materiał", 20L);
+        Produkt poszewka = new Produkt("poszewka", "materiał", 30L);
         Produkt kokarda = new Produkt ("kokarda", "materiał", 10L);
         Produkt zamek = new Produkt("zamek", "zamek błyskawiczny", 10L);
         Koszyk koszyk = new Koszyk ();
